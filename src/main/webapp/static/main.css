@@ -1,5 +1,11 @@
+body {
+    background-color: #000814;
+    font-family: Arial;
+    color: #ffffff;
+}
+
 td {
-    border: 3px solid black;
+    border: 2px solid #0fa;
     padding: 10px;
     border-collapse: separate;
     margin: 10px;
@@ -8,4 +14,16 @@ td {
     font-size: 50px;
     text-align: center;
     empty-cells: show;
+    font-family: Arial;
+    font-size: 6em;
+    color: #fff;
+    text-shadow:
+            0 0 3px #fff,
+            0 0 5px #fff,
+            0 0 11px #fff,
+            0 0 16px #0fa,
+            0 0 20px #0fa,
+            0 0 26px #0fa,
+            0 0 30px #0fa,
+            0 0 34px #0fa;
 }
